@@ -1,0 +1,10 @@
+// HOW THE CODE WORKS :
+// the user write on virtual terminal on proteus a string foe example " led 1 on."
+// the string transfer from virtual terminal to the master controller using UART protocol
+// IF condition checks the string sent by the user with predefined strings in the code
+// if the condition is true a character is set with a value and sent to the slave using SPI protocol 
+// the user must write the string with the same format so the leds turn on or off :
+// "led 1 on."
+// "led 2 on."
+// "led 2 off."
+// "led 1 off."
